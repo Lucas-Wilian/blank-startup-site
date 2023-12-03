@@ -1,6 +1,7 @@
 import React from 'react';
 import * as C from './styled';
 import Header from '../Header/Header';
+import HeaderTop from '../HeaderTop/HeaderTop';
 
 export default function Layout({
   children,
@@ -9,8 +10,9 @@ export default function Layout({
 }) {
   return (
     <C.Container>
+      <HeaderTop />
       <Header />
-      {children}
+      <C.Section>{children}</C.Section>
     </C.Container>
   );
 }
