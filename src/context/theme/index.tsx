@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import Layout from '@/components/Layout/Layout';
