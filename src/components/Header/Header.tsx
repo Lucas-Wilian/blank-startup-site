@@ -1,6 +1,5 @@
 import React from 'react';
 import * as C from './styled';
-import HeaderTop from '../HeaderTop/HeaderTop';
 import Logo from '../Logo/Logo';
 import Button from '../Button/Button';
 
