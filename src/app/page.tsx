@@ -1,10 +1,11 @@
 'use client';
+import Section from '@/components/Section/Section';
 import { AppProvider } from '@/context/theme';
 
 export default function Home() {
   return (
     <AppProvider>
-      <p>🔥🚀👻</p>
+      <Section />
     </AppProvider>
   );
 }
