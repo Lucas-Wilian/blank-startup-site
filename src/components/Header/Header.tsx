@@ -15,10 +15,7 @@ export default function Header() {
           </span>
         </C.DropMenu>
         <C.DropdownContent>
-          {/* <C.DropdownLink>Link1</C.DropdownLink>
-          <C.DropdownLink>Link2</C.DropdownLink>
-          <C.DropdownLink>Link3</C.DropdownLink>
-          <C.DropdownLink>Link4</C.DropdownLink> */}
+          <p>Sobre</p>
         </C.DropdownContent>
       </C.DropdownWrapper>
 
@@ -29,10 +26,7 @@ export default function Header() {
           </span>
         </C.DropMenu>
         <C.DropdownContent>
-          {/* <C.DropdownLink>Link1</C.DropdownLink>
-          <C.DropdownLink>Link2</C.DropdownLink>
-          <C.DropdownLink>Link3</C.DropdownLink>
-          <C.DropdownLink>Link4</C.DropdownLink> */}
+          <p>Produtos</p>
         </C.DropdownContent>
       </C.DropdownWrapper>
 
@@ -43,10 +37,7 @@ export default function Header() {
           </span>
         </C.DropMenu>
         <C.DropdownContent>
-          {/* <C.DropdownLink>Link1</C.DropdownLink>
-          <C.DropdownLink>Link2</C.DropdownLink>
-          <C.DropdownLink>Link3</C.DropdownLink>
-          <C.DropdownLink>Link4</C.DropdownLink> */}
+          <p>Redes Sociais</p>
         </C.DropdownContent>
       </C.DropdownWrapper>
 
