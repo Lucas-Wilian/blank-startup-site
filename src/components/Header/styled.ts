@@ -6,6 +6,8 @@ export const Container = styled.div`
   background: ${({ theme }) => theme.colors.blk_theme_primary_light};
   border-top: solid 0.05rem
     ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
+  border-bottom: solid 0.05rem
+    ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
   height: 90px;
   gap: 30px;
   display: flex;
@@ -47,6 +49,7 @@ export const DropdownContent = styled.div`
   min-height: 300px;
   position: absolute;
   top: 100%;
+  left: 90%;
   border-radius: 5px;
   border: solid 0.05rem
     ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
