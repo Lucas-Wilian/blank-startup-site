@@ -1,7 +1,7 @@
 import React from 'react';
 import * as C from './styled';
 
-export default function Button({
+export default function ButtonGlogal({
   children,
 }: {
   children: React.ReactNode;

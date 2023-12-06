@@ -16,7 +16,7 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const ButtonContainer = styled.div`
+export const ButtonGlogalContainer = styled.div`
   width: 90px;
   height: 35px;
 `;

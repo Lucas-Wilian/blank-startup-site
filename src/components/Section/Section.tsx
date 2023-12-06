@@ -1,19 +1,19 @@
 import React from 'react';
 import * as C from './styled';
-import Button from '../Button/Button';
+import ButtonGlogal from '../Button/Button';
 
 export default function Section() {
   return (
     <C.Container>
       <C.Text>Softwares modernos para sua empresa</C.Text>
-      <C.SectionButtons>
-        <C.ButtonSection>
-          {/* <Button>
+      <C.SectionButtonGlogals>
+        <C.ButtonGlogalSection>
+          {/* <ButtonGlogal>
             <p>Começar </p>
-          </Button> */}
-          <Button>Cadastrar para noticias</Button>
-        </C.ButtonSection>
-      </C.SectionButtons>
+          </ButtonGlogal> */}
+          <ButtonGlogal>Cadastrar para noticias</ButtonGlogal>
+        </C.ButtonGlogalSection>
+      </C.SectionButtonGlogals>
     </C.Container>
   );
 }

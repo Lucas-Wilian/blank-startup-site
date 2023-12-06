@@ -15,6 +15,6 @@ export const Text = styled.h2`
   color: ${({ theme }) => theme.colors.blk_theme_contrast};
 `;
 
-export const SectionButtons = styled.div``;
+export const SectionButtonGlogals = styled.div``;
 
-export const ButtonSection = styled.div``;
+export const ButtonGlogalSection = styled.div``;

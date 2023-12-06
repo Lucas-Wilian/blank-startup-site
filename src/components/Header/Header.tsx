@@ -1,7 +1,7 @@
 import React from 'react';
 import * as C from './styled';
 import Logo from '../Logo/Logo';
-import Button from '../Button/Button';
+import ButtonGlogal from '../Button/Button';
 
 export default function Header() {
   return (
@@ -41,11 +41,11 @@ export default function Header() {
         </C.DropdownContent>
       </C.DropdownWrapper>
 
-      <C.ButtonContainer>
-        <Button>
+      <C.ButtonGlogalContainer>
+        <ButtonGlogal>
           <p>Saiba +</p>
-        </Button>
-      </C.ButtonContainer>
+        </ButtonGlogal>
+      </C.ButtonGlogalContainer>
     </C.Container>
   );
 }
