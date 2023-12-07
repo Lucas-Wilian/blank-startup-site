@@ -17,7 +17,7 @@ a {
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: #101010 #292229;
+  scrollbar-color: #0a0a0a #202020;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -26,11 +26,10 @@ a {
 }
 
 *::-webkit-scrollbar-track {
-  background: #292229;
+  background: #0a0a0a;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #101010;
+  background: #202020;
   border-radius: 20px;
-  border: 3px solid #292229;
 }
