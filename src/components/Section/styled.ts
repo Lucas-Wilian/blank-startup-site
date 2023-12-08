@@ -15,6 +15,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 `;
 
 export const Text = styled.h2`
@@ -34,14 +35,3 @@ export const SectionButton = styled.div`
 `;
 
 export const ButtonGlogalSection = styled.div``;
-
-export const Button = styled.button`
-  ${ButtonStyle}
-  background: ${({ theme }) => theme.colors.blk_theme_btn_bg};
-`;
-
-export const ButtonUnderline = styled.button`
-  ${ButtonStyle}
-  background:transparent;
-  color: ${({ theme }) => theme.colors.blk_theme_btn_bg};
-`;
