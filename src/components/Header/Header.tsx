@@ -42,9 +42,13 @@ export default function Header() {
       </C.DropdownWrapper>
 
       <C.ButtonGlogalContainer>
-        <ButtonGlogal>
-          <p>Saiba +</p>
-        </ButtonGlogal>
+        <ButtonGlogal
+          background={true}
+          font_size='1rem'
+          text='Saiba +'
+          width='100%'
+          height='100%'
+        />
       </C.ButtonGlogalContainer>
     </C.Container>
   );
