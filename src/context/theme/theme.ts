@@ -10,7 +10,7 @@ export const darkTheme: DefaultTheme = {
     blk_theme_neutral: '#222222',
     blk_theme_neutral_hover: '#303030',
     blk_theme_elevation_1: '#151515',
-    blk_theme_elevation_2: '#202020',
+    blk_theme_elevation_2: '#232323',
     blk_theme_elevation_3: '#191919',
     blk_theme_primary_light: '#191919',
     blk_theme_text: '#ced4da',
