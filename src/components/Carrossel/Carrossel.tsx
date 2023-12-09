@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import * as C from './styled';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
-
-import 'swiper/swiper.min.css';
-import 'swiper/components/pagination/pagination.min.css';
-import 'swiper/components/navigation/navigation.min.css';
-
-SwiperCore.use([Autoplay, Pagination, Navigation]);
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
 
 export default function Carrossel() {
   const [langue, setLangue] = useState([
@@ -27,21 +22,27 @@ export default function Carrossel() {
   return (
     <C.Container>
       <C.Title>Tecnologias mais usadas em projetos</C.Title>
-      {/* <C.Carrossel>
-        {langue.map((item: string, index) => (
-          <p key={index}>{item}</p>
-        ))}
-      </C.Carrossel> */}
+
       <Swiper
         spaceBetween={30}
-        slidesPerView={1}
-        navigation
-        pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        slidesPerView={4}
+        centeredSlides={false}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        className='mySwiper'
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        {langue.map((item, index) => (
+          <SwiperSlide key={index}>
+            <C.ContainerImg>
+              <p>{item}</p>
+            </C.ContainerImg>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </C.Container>
   );
