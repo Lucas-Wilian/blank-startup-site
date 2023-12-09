@@ -3,7 +3,7 @@ import { DefaultTheme } from 'styled-components';
 export const darkTheme: DefaultTheme = {
   colors: {
     blk_theme_background: '#0a0a0a',
-    blk_theme_background_rgb: 'rgb(10,10,10)',
+    blk_theme_background_rgb: '10,10,10',
     blk_theme_background_hover: '#1a1a1a',
     blk_theme_contrast: '#f8f9fa',
     blk_theme_contrast_hover: '#ced4da',
