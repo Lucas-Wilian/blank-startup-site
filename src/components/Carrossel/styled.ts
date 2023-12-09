@@ -1,10 +1,15 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
-  height: 130px;
+  height: 300px;
   width: 100%;
   padding: 10px 0;
 `;
+
+// export const Carrossel = styled.div`
+//   display: flex;
+//   flex-direction: row;
+// `;
 
 export const Title = styled.p`
   font-weight: 400;
@@ -17,7 +22,9 @@ export const Title = styled.p`
     theme.colors.blk_theme_toggle_btn_background};
 `;
 
-export const Carrossel = styled.div`
+export const ContainerImg = styled.div`
+  height: 100px;
+  width: 250px;
+  border-radius: 8px;
   background: #fff;
-  height: 100%;
 `;
