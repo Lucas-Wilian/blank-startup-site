@@ -49,19 +49,17 @@ export const DropdownContent = styled.div`
   min-height: 300px;
   position: absolute;
   top: 100%;
-  left: 90%;
+  right: -50%;
   border-radius: 5px;
   border: solid 0.05rem
     ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
-  z-index: 1;
+  z-index: 5;
   box-shadow: 0 0 4px 4px
     ${({ theme }) => theme.colors.blk_theme_blue_light};
   ${DropdownWrapper}:hover & {
     display: block;
     transition: all 0.3s ease;
   }
-  left: 0;
-  right: auto;
 `;
 
 export const DropdownLink = styled.span`
