@@ -28,11 +28,30 @@ export default function Carrossel() {
         <Splide
           options={{
             type: 'loop',
-            gap: '5px',
+            gap: '2rem',
             drag: 'free',
             arrows: false,
             pagination: false,
-            perPage: 4,
+            perPage: 5,
+            focus: 'center',
+            breakpoints: {
+              1420: {
+                perPage: 4,
+                gap: '1.5rem',
+              },
+              1235: {
+                perPage: 3,
+                gap: '1.3rem',
+              },
+              900: {
+                perPage: 2,
+                // gap: '2px',
+              },
+              800: {
+                perPage: 2,
+                gap: '13rem',
+              },
+            },
             autoScroll: {
               pauseOnHover: false,
               pauseOnFocus: false,
