@@ -1,12 +1,4 @@
-import { css, styled } from 'styled-components';
-
-const ButtonStyle = css`
-  font-size: 1.7rem;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid ${({ theme }) => theme.colors.blk_theme_btn_bg};
-  font-weight: bold;
-`;
+import { styled } from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
@@ -16,6 +8,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 30px;
+  padding: 0rem 6rem;
 `;
 
 export const Text = styled.h2`
