@@ -1,9 +1,9 @@
 import { css, styled } from 'styled-components';
 
 export const Container = styled.div`
-  height: 300px;
+  height: 260px;
   width: 100%;
-  padding: 10px 0;
+  padding: 0rem 6rem;
 `;
 
 export const Carrossel = styled.div`
