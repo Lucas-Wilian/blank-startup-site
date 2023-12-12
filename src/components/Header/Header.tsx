@@ -2,16 +2,17 @@ import React from 'react';
 import * as C from './styled';
 import Logo from '../Logo/Logo';
 import ButtonGlogal from '../Button/Button';
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 export default function Header() {
   return (
     <C.Container>
       <Logo />
-
       <C.DropdownWrapper>
         <C.DropMenu>
           <span>
-            Sobre <C.IconArrow />
+            {'Sobre' || <Skeleton />} <C.IconArrow />
           </span>
         </C.DropMenu>
         <C.DropdownContent>
@@ -22,7 +23,7 @@ export default function Header() {
       <C.DropdownWrapper>
         <C.DropMenu>
           <span>
-            Produtos <C.IconArrow />
+            {'Produtos' || <Skeleton />} <C.IconArrow />
           </span>
         </C.DropMenu>
         <C.DropdownContent>
@@ -33,7 +34,7 @@ export default function Header() {
       <C.DropdownWrapper>
         <C.DropMenu>
           <span>
-            Social <C.IconArrow />
+            {'Sobre' || <Skeleton />} <C.IconArrow />
           </span>
         </C.DropMenu>
         <C.DropdownContent>
