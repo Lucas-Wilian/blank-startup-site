@@ -10,8 +10,10 @@ export default function Layout({
 }) {
   return (
     <C.Container>
-      <HeaderTop />
-      <Header />
+      <C.ContainerHeader>
+        <HeaderTop />
+        <Header />
+      </C.ContainerHeader>
       <C.Section>{children}</C.Section>
     </C.Container>
   );
