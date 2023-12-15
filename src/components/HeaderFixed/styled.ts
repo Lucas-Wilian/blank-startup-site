@@ -12,5 +12,5 @@ export const Container = styled.div`
   background: ${({ theme }) => theme.colors.blk_theme_background};
   border-bottom: solid 0.1rem
     ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
-  z-index: 2;
+  z-index: 3;
 `;
