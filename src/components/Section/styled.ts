@@ -1,6 +1,7 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -12,12 +13,16 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.h2`
+  position: relative;
+  z-index: 2;
   font-weight: 400;
   font-size: 60px;
   color: ${({ theme }) => theme.colors.blk_theme_contrast};
 `;
 
 export const SectionButton = styled.div`
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   height: 90px;
