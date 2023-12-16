@@ -10,13 +10,22 @@ export default function SectionYoutube() {
         </C.VideoPrimary>
         <C.ContainerSocial>
           <C.SocialSection>
-            <p>Youtube</p>
+            <C.ContainerYoutube>
+              <C.YotubeIcon />
+              <p>Increva-se no Youtube </p>
+            </C.ContainerYoutube>
           </C.SocialSection>
           <C.SocialSection>
-            <p>LinkIn</p>
+            <C.ContainerLinkedIn>
+              <C.LinkedInIcon />
+              <p>Veja nosso LinkedIn</p>
+            </C.ContainerLinkedIn>
           </C.SocialSection>
           <C.SocialSection>
-            <p>Instagram</p>
+            <C.ContainerInstagram>
+              <C.InstagramIcon />
+              <p>Siga-nos no Instagram</p>
+            </C.ContainerInstagram>
           </C.SocialSection>
         </C.ContainerSocial>
       </C.ContainerPrimary>
