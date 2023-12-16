@@ -1,6 +1,7 @@
 'use client';
 import Carrossel from '@/components/Carrossel/Carrossel';
 import HeaderFixed from '@/components/HeaderFixed/HeaderFixed';
+import LayoutBg from '@/components/LayoutBg/LayoutBg';
 import Section from '@/components/Section/Section';
 import SectionProjects from '@/components/SectionProjects/SectionProjects';
 import SectionYoutube from '@/components/SectionYoutube/SectionYoutube';
@@ -11,9 +12,11 @@ export default function Home() {
     <AppProvider>
       <HeaderFixed />
       <Section />
-      <Carrossel />
-      <SectionYoutube />
-      <SectionProjects />
+      <LayoutBg>
+        <Carrossel />
+        <SectionYoutube />
+        <SectionProjects />
+      </LayoutBg>
     </AppProvider>
   );
 }
