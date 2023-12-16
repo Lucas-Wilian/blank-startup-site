@@ -1,7 +1,7 @@
 import { css, styled } from 'styled-components';
 import IconYoutube from '../Icons/IconYoutube';
 import IconLinkedin from '../Icons/IconLinkedin';
-import IconInstagram from '../Icons/IconInstagrams';
+import IconInstagram from '../Icons/IconInstagram';
 
 const ContainerStyle = css`
   border-radius: 8px;
