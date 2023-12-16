@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "alt": "logo-typescript",
+    "url": "https://i.imgur.com/frzNgZW.png"
+  },
+  {
+    "id": "2",
+    "alt": "logo-jascript",
+    "url": "https://i.imgur.com/GUk745Y.png"
+  },
+  {
+    "id": "3",
+    "alt": "logo-react",
+    "url": "https://i.imgur.com/v3mN3YJ.png"
+  },
+  {
+    "id": "4",
+    "alt": "logo-nextjs",
+    "url": "https://i.imgur.com/ULdWMFU.png"
+  },
+  {
+    "id": "5",
+    "alt": "logo-python",
+    "url": "https://i.imgur.com/SHX3Ni1.png"
+  },
+  {
+    "id": "6",
+    "alt": "logo-nodejs",
+    "url": "https://i.imgur.com/vNrhxRe.png"
+  },
+  {
+    "id": "7",
+    "alt": "logo-nestjs",
+    "url": "https://i.imgur.com/dPkN283.png"
+  },
+  {
+    "id": "8",
+    "alt": "logo-prisma",
+    "url": "https://i.imgur.com/gKSpMPd.png"
+  },
+  {
+    "id": "9",
+    "alt": "logo-html",
+    "url": "https://i.imgur.com/xnpKjQK.png"
+  },
+  {
+    "id": "10",
+    "alt": "logo-css",
+    "url": "https://i.imgur.com/NHuP6Sm.png"
+  },
+  {
+    "id": "11",
+    "alt": "logo-jest",
+    "url": "https://i.imgur.com/8uK0W1u.png"
+  },
+  {
+    "id": "12",
+    "alt": "logo-postgresql",
+    "url": "https://i.imgur.com/yuJPk9X.png"
+  },
+  {
+    "id": "13",
+    "alt": "logo-firebase",
+    "url": "https://i.imgur.com/R8dy7xZ.png"
+  }
+]
