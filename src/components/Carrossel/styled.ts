@@ -24,6 +24,7 @@ export const CarrosselComponent = styled.div`
   justify-content: center;
   border: 0.1rem solid
     ${({ theme }) => theme.colors.blk_theme_btn_hover_bg};
+  cursor: pointer;
 `;
 
 export const Title = styled.p`
