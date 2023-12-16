@@ -2,6 +2,7 @@ import { css, styled } from 'styled-components';
 
 const Collum = css`
   border-radius: 5px;
+  cursor: pointer;
   background: ${({ theme }) => theme.colors.blk_theme_primary_light};
   border: 0.1rem solid
     ${({ theme }) => theme.colors.blk_theme_toggle_btn_background};
