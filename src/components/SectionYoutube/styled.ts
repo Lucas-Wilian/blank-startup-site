@@ -3,8 +3,15 @@ import { css, styled } from 'styled-components';
 const ContainerStyle = css`
   border-radius: 8px;
   background: ${({ theme }) => theme.colors.blk_theme_primary_light};
+  cursor: pointer;
   border: 0.1rem solid
     ${({ theme }) => theme.colors.blk_theme_toggle_btn_background};
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 4px 4px
+      ${({ theme }) => theme.colors.blk_theme_blue_light};
+  }
 `;
 
 export const Container = styled.div`
