@@ -29,6 +29,7 @@ const SocialContainer = css`
   gap: 10px;
   p {
     color: #fff;
+    text-align: center;
   }
 `;
 
