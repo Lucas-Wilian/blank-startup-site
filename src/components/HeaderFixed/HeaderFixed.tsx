@@ -4,9 +4,17 @@ import * as C from './styled';
 export default function HeaderFixed() {
   return (
     <C.Container>
-      <span>Social</span>
-      <span>Plataformas</span>
-      <span>Projetos</span>
+      <span>
+        <C.UsersIcon /> Social
+      </span>
+      <span>
+        <C.OsIcon />
+        Plataformas
+      </span>
+      <span>
+        <C.ProIcon />
+        Projetos
+      </span>
     </C.Container>
   );
 }
