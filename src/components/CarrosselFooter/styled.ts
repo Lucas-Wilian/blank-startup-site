@@ -19,6 +19,10 @@ export const Carrossel = styled.div`
     font-size: 1.54rem;
     color: ${({ theme }) =>
       theme.colors.blk_theme_toggle_btn_background};
+    cursor: pointer;
+    &:hover {
+      color: ${({ theme }) => theme.colors.blk_theme_contrast_hover};
+    }
   }
 `;
 
