@@ -62,7 +62,7 @@ export const BackgroundContainer = styled.div`
   height: 140px;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(
+  background-image: linear-gradient(
     to bottom,
     transparent,
     rgba(${({ theme }) => theme.colors.blk_theme_background_rgb}) 80%
