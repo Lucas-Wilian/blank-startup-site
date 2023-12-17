@@ -21,7 +21,6 @@ export const SectionButton = styled.div`
   position: relative;
   z-index: 2;
   display: flex;
-
   height: 90px;
   width: 100%;
   align-items: center;
