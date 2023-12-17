@@ -33,11 +33,11 @@ export default function Carrossel() {
                   sizes='100vw'
                   quality={100}
                   // layout='responsive'
-                  objectFit='center'
+                  // objectFit='center'
                   style={{
                     width: '100%',
                     height: '100%',
-                    margin: '10px',
+                    padding: '5px 20px',
                   }}
                 />
               </C.CarrosselComponent>
