@@ -51,7 +51,7 @@ export const ContainerTitleVideo = styled.div`
   gap: 10px;
   height: 50px;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 9px;
   padding-bottom: 10px;
 
   h3 {
@@ -61,7 +61,7 @@ export const ContainerTitleVideo = styled.div`
     -webkit-line-clamp: 2;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    font-size: 1.2rem;
+    font-size: 1.32rem;
   }
   section {
     display: flex;
@@ -86,7 +86,8 @@ export const ContainerDescriptionVideo = styled.div`
   p {
     text-align: start;
     color: ${({ theme }) => theme.colors.blk_theme_text_code};
-
+    font-size: 0.9rem;
+    font-weight: bolder;
     display: -webkit-box;
     -webkit-line-clamp: 7;
     overflow: hidden;
