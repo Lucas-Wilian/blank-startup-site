@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import * as C from './styled';
-import ButtonGlogal from '../Button/Button';
 import { getLatestVideos } from '@/utils/getUrlVideo';
 
 interface VideoData {
