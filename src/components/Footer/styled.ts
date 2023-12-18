@@ -15,7 +15,6 @@ export const SectionFooter = styled.div`
   display: flex;
   flex-direction: row;
   gap: 10px;
-  /* flex-wrap: wrap; */
   justify-content: center;
   width: 100%;
 `;
