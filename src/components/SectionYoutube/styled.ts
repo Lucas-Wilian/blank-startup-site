@@ -2,11 +2,12 @@ import { css, styled } from 'styled-components';
 import IconYoutube from '../Icons/IconYoutube';
 import IconLinkedin from '../Icons/IconLinkedin';
 import IconInstagram from '../Icons/IconInstagram';
+import IconViewShow from '../Icons/IconViewShow';
 
 const ContainerStyle = css`
   border-radius: 8px;
-  /* background: ${({ theme }) =>
-    theme.colors.blk_theme_primary_light}; */
+  padding: 10px;
+
   cursor: pointer;
   border: 0.1rem solid
     ${({ theme }) => theme.colors.blk_theme_toggle_btn_background};
@@ -30,6 +31,66 @@ const SocialContainer = css`
   p {
     color: #fff;
     text-align: center;
+  }
+`;
+
+export const ContainerVideo = styled.iframe.attrs({
+  frameBorder: 0,
+  allow:
+    'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
+  allowFullScreen: true,
+})`
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+`;
+
+export const ContainerTitleVideo = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 10px;
+
+  h3 {
+    color: ${({ theme }) => theme.colors.blk_theme_contrast};
+    width: 95%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    font-size: 1.2rem;
+  }
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background: ${({ theme }) => theme.colors.blk_theme_btn_bg};
+    border-radius: 5px;
+    height: 100%;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      gap: 10px;
+    }
+  }
+`;
+export const ContainerDescriptionVideo = styled.div`
+  height: 140px;
+  padding-top: 10px;
+  p {
+    text-align: start;
+    color: ${({ theme }) => theme.colors.blk_theme_text_code};
+
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
   }
 `;
 
@@ -120,4 +181,11 @@ export const LinkedInIcon = styled(IconLinkedin)`
 export const InstagramIcon = styled(IconInstagram)`
   ${IconStyle}
   color: #fff;
+`;
+
+export const ViewIcon = styled(IconViewShow)`
+  fill: ${({ theme }) => theme.colors.blk_thmee_background};
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
 `;
