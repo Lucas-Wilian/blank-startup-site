@@ -7,7 +7,7 @@ interface PropsGlobal {
   height?: string;
 }
 
-export const Container = styled.div<PropsGlobal>`
+export const Container = styled.button<PropsGlobal>`
   display: flex;
   align-items: center;
   justify-content: center;
