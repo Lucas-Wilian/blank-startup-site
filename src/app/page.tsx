@@ -1,4 +1,5 @@
 'use client';
+import ButtonWhatsapp from '@/components/ButtonWhatsapp/ButtonWhatsapp';
 import Carrossel from '@/components/Carrossel/Carrossel';
 import HeaderFixed from '@/components/HeaderFixed/HeaderFixed';
 import LayoutBg from '@/components/LayoutBg/LayoutBg';
@@ -21,6 +22,7 @@ export default function Home() {
         <SectionProjects />
         <SectionFooter />
       </LayoutBg>
+      <ButtonWhatsapp />
     </AppProvider>
   );
 }
