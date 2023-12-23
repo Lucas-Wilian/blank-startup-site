@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import * as C from './styled';
 import { getLatestVideos } from '@/utils/getUrlVideo';
+import Skeleton from 'react-loading-skeleton';
 
 interface VideoData {
   videoTitle: string;
@@ -14,6 +15,7 @@ export default function SectionYoutube() {
   const apiKey = process.env.NEXT_PUBLIC_API_KEY;
 
   const [latestVideos, setLatestVideos] = useState<VideoData[]>([]);
+  const video = false;
 
   useEffect(() => {
     const fetchLatestVideos = async () => {
@@ -38,27 +40,77 @@ export default function SectionYoutube() {
         <C.VideoPrimary>
           {latestVideos.length > 0 && (
             <>
-              <C.ContainerVideo
-                src={`${latestVideos[0].videoUrl}`}
-                title={latestVideos[0].videoTitle}
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              />
+              {video === false ? (
+                <Skeleton
+                  baseColor='#202020'
+                  highlightColor='#444'
+                  style={{
+                    width: '100%',
+                    height: '280px',
+                  }}
+                />
+              ) : (
+                <C.ContainerVideo
+                  src={`${latestVideos[0].videoUrl}`}
+                  title={latestVideos[0].videoTitle}
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                />
+              )}
               <C.ContainerTitleVideo
                 style={{
                   borderBottom:
                     ' solid 0.1rem rgba(155, 155, 155, 0.2)',
                 }}
               >
-                <h3>{latestVideos[0].videoTitle}</h3>
-                <section>
-                  <span>
-                    <C.ViewIcon />
-                    {latestVideos[0].viewCount}
-                  </span>
-                </section>
+                {video === false ? (
+                  <h3>
+                    <Skeleton
+                      baseColor='#202020'
+                      highlightColor='#444'
+                      style={{
+                        //   width: '90px',
+                        height: '35px',
+                      }}
+                    />
+                  </h3>
+                ) : (
+                  <h3>{latestVideos[0].videoTitle}</h3>
+                )}
+
+                {video === false ? (
+                  <Skeleton
+                    baseColor='#202020'
+                    highlightColor='#444'
+                    style={{
+                      width: '100px',
+                      height: '40px',
+                    }}
+                  />
+                ) : (
+                  <section>
+                    <span>
+                      <C.ViewIcon />
+                      {latestVideos[0].viewCount}
+                    </span>
+                  </section>
+                )}
               </C.ContainerTitleVideo>
               <C.ContainerDescriptionVideo>
-                <p>{latestVideos[0].description}</p>
+                <p>
+                  {video === false ? (
+                    <Skeleton
+                      baseColor='#202020'
+                      highlightColor='#444'
+                      count={6}
+                      style={{
+                        marginBottom: '5px',
+                        height: '1.1rem',
+                      }}
+                    />
+                  ) : (
+                    latestVideos[0].description
+                  )}
+                </p>
               </C.ContainerDescriptionVideo>
             </>
           )}
