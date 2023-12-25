@@ -9,20 +9,23 @@ import SectionPlataform from '@/components/SectionPlataform/SectionPlataform';
 import SectionProjects from '@/components/SectionProjects/SectionProjects';
 import SectionYoutube from '@/components/SectionYoutube/SectionYoutube';
 import { AppProvider } from '@/context/theme';
+import { SkeletonTheme } from 'react-loading-skeleton';
 
 export default function Home() {
   return (
     <AppProvider>
-      <HeaderFixed />
-      <Section />
-      <LayoutBg>
-        <Carrossel />
-        <SectionYoutube />
-        <SectionPlataform />
-        <SectionProjects />
-        <SectionFooter />
-      </LayoutBg>
-      <ButtonWhatsapp />
+      <SkeletonTheme baseColor='#202020' highlightColor='#444'>
+        <HeaderFixed />
+        <Section />
+        <LayoutBg>
+          <Carrossel />
+          <SectionYoutube />
+          <SectionPlataform />
+          <SectionProjects />
+          <SectionFooter />
+        </LayoutBg>
+        <ButtonWhatsapp />
+      </SkeletonTheme>
     </AppProvider>
   );
 }
