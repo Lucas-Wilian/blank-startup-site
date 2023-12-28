@@ -6,6 +6,9 @@ import '@splidejs/splide/dist/css/splide.min.css';
 import Image from 'next/image';
 import imgData from '../../data/dataImg.json';
 import carouselConfig from '../config/carousel-config';
+import CardCarrossel from '../CardCarrossel/CardCarrossel';
+import { IconBlank } from '../Animation/styled';
+import IconLanguageTypescript from '../Icons/IconLanguageTypescript';
 
 interface imgProp {
   id: string;
@@ -19,6 +22,10 @@ export default function Carrossel() {
   return (
     <C.Container>
       <C.Title>Algumas tecnologias usadas em projetos</C.Title>
+      {/* <CardCarrossel
+        text='TypeScript'
+        icon={<IconLanguageTypescript />}
+      /> */}
       <C.Carrossel>
         <C.Left />
         <Splide options={carouselConfig} extensions={{ AutoScroll }}>
