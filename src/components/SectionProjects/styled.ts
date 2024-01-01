@@ -34,16 +34,17 @@ export const GridProjects = styled.div`
   gap: 20px;
 `;
 
+export const ContainerImg = styled.div`
+  ${Collum}
+  width: 100%;
+  height: 240px;
+`;
+
 export const CollumGrid = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 370px;
-  span {
-    ${Collum}
-    width: 100%;
-    height: 240px;
-  }
 `;
 
 export const CollumGridSpan = styled.div`

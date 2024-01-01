@@ -8,17 +8,17 @@ export default function SectionProjects() {
       <C.Title>Nossos principais projetos</C.Title>
       <C.GridProjects>
         <C.CollumGrid>
-          <span />
-          <span />
+          <C.ContainerImg />
+          <C.ContainerImg />
         </C.CollumGrid>
         <C.CollumGridSpan />
         <C.CollumGrid>
-          <span />
-          <span />
+          <C.ContainerImg />
+          <C.ContainerImg />
         </C.CollumGrid>
         <C.CollumGrid>
-          <span />
-          <span />
+          <C.ContainerImg />
+          <C.ContainerImg />
         </C.CollumGrid>
       </C.GridProjects>
       <C.BackgroundContainer />
