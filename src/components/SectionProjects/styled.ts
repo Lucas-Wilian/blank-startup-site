@@ -24,34 +24,32 @@ export const Title = styled.p`
     theme.colors.blk_theme_toggle_btn_background};
 `;
 
-export const CollumGrid = styled.div`
-  ${Collum}
-  height: 250px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px;
-`;
-
 export const GridProjects = styled.div`
   width: 100%;
   height: 500px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  ${CollumGrid}:nth-child(6) {
-    height: 180px;
+`;
+
+export const CollumGrid = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 370px;
+  span {
+    ${Collum}
+    width: 100%;
+    height: 240px;
   }
 `;
 
 export const CollumGridSpan = styled.div`
   ${Collum}
-  grid-row: span 2;
-`;
-
-export const GridCollum = styled.div`
+  width: 370px;
   height: 100%;
-  background: ${({ theme }) => theme.colors.blk_theme_toggle_opacity};
 `;
 
 export const BackgroundContainer = styled.div`

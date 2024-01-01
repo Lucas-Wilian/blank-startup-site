@@ -7,16 +7,19 @@ export default function SectionProjects() {
     <C.Container>
       <C.Title>Nossos principais projetos</C.Title>
       <C.GridProjects>
-        <C.CollumGrid />
-        <C.CollumGridSpan />
-        <C.CollumGrid />
-        <C.CollumGrid />
-        <C.CollumGrid />
         <C.CollumGrid>
-          <C.GridCollum />
-          <C.GridCollum />
+          <span />
+          <span />
         </C.CollumGrid>
-        <C.CollumGrid />
+        <C.CollumGridSpan />
+        <C.CollumGrid>
+          <span />
+          <span />
+        </C.CollumGrid>
+        <C.CollumGrid>
+          <span />
+          <span />
+        </C.CollumGrid>
       </C.GridProjects>
       <C.BackgroundContainer />
     </C.Container>
