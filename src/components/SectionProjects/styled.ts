@@ -12,6 +12,7 @@ export const Container = styled.div`
   width: 100%;
   height: 650px;
   position: relative;
+  overflow: hidden;
 `;
 
 export const Title = styled.p`
@@ -55,7 +56,7 @@ export const BackgroundContainer = styled.div`
   cursor: pointer;
   position: absolute;
   opacity: 0.5;
-  bottom: 10%;
+  bottom: 0%;
   height: 140px;
   width: 100%;
   z-index: 1;
