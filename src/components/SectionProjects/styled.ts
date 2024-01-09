@@ -26,18 +26,16 @@ export const Title = styled.p`
 
 export const GridProjects = styled.div`
   width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  columns: 5;
+  column-gap: 15px;
+  padding: 15px;
+  /* height: 400px; */
 `;
 
 export const ContainerImg = styled.div`
   ${Collum}
   width: 100%;
-  height: 240px;
+  margin-bottom: 15px;
 `;
 
 export const CollumGrid = styled.div`
