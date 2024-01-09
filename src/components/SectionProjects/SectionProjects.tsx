@@ -15,7 +15,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img1}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -24,7 +23,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img2}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -33,7 +31,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img3}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -42,7 +39,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img4}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -51,7 +47,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img1}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -60,7 +55,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img2}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -69,7 +63,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img3}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
@@ -78,7 +71,6 @@ export default function SectionProjects() {
           <Image
             quality={100}
             src={img4}
-            objectFit='cover'
             alt='test'
             style={{ width: '100%', height: '100%' }}
           />
