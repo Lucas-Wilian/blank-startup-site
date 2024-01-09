@@ -1,10 +1,10 @@
 import React from 'react';
 import * as C from './styled';
 import Image from 'next/image';
-import img1 from '../../assents/Capturar1.png';
-import img2 from '../../assents/Capturar2.png';
-import img3 from '../../assents/Capturar3.png';
-import img4 from '../../assents/Capturar4.png';
+import img1 from '../assents/Capturar1.png';
+import img2 from '../assents/Capturar2.png';
+import img3 from '../assents/Capturar3.png';
+import img4 from '../assents/Capturar4.png';
 
 export default function SectionProjects() {
   return (
