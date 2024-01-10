@@ -30,6 +30,14 @@ export default function SectionProjects() {
         <C.ContainerImg>
           <Image
             quality={100}
+            src={img2}
+            alt='test'
+            style={{ width: '100%', height: '100%' }}
+          />
+        </C.ContainerImg>
+        <C.ContainerImg>
+          <Image
+            quality={100}
             src={img3}
             alt='test'
             style={{ width: '100%', height: '100%' }}
