@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Carrossel = styled.div`
   margin: auto;
-  height: 100px;
+  height: 120px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -16,15 +16,15 @@ export const Carrossel = styled.div`
 
 export const CarrosselComponent = styled.div`
   width: 250px;
-  height: 100px;
-  background: white;
+  height: 120px;
+  /* background: white; */
   display: flex;
   border-radius: 5px;
   align-items: center;
   justify-content: center;
-  border: 0.1rem solid
+  /* border: 0.1rem solid
     ${({ theme }) => theme.colors.blk_theme_btn_hover_bg};
-  cursor: pointer;
+  cursor: pointer; */
 `;
 
 export const Title = styled.p`
